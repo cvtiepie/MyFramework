@@ -1,0 +1,20 @@
+{
+  "name": "protracktor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "eugenue",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^5.4.2",
+    "selenium-webdriver": "^4.0.0-alpha.5",
+    "tough-cookie": "^3.0.1",
+    "unirest": "^0.6.0"
+  },
+  "devDependencies": {
+    "jasmine": "^3.5.0"
+  }
+}
