@@ -1,20 +1,23 @@
 {
-  "name": "protracktor",
+  "name": "eugenueFramework",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "anime": "protractor conf.js"
   },
+  "type": "module",
   "author": "eugenue",
   "license": "ISC",
   "dependencies": {
     "protractor": "^5.4.2",
     "selenium-webdriver": "^4.0.0-alpha.5",
-    "tough-cookie": "^3.0.1",
-    "unirest": "^0.6.0"
+    "unirest": "^0.6.0",
+    "webdriver-manager": "^12.1.7",
+    "typescript": "^3.7.2"
   },
   "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "jasmine": "^3.5.0"
   }
 }
